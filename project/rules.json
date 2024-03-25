@@ -1,0 +1,28 @@
+[
+  {
+    "description": "Rule1",
+    "condition": "any",
+    "properties": [
+      {
+        "field": "email_from",
+        "operation": "contains",
+        "value": "Avinash"
+      },
+      {
+        "field": "date",
+        "operation": "less_than",
+        "value": "1"
+      }
+    ],
+    "actions": [
+      {
+        "type": "Move",
+        "destination": "Trash"
+      },
+      {
+        "mark_read": "True"
+      }
+    ]
+  }
+]
+
