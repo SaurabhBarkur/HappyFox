@@ -59,11 +59,14 @@ Note:
 
 Command:
 ```
+cd project
 python3 email_processor.py
 ```
 
 Working:
 
 ```
+
 This will open up your browser to select your gmail id and authorize. Once you have authorized your emails will be stored in the database(last 100 emails) and token.json is created then based on the rules in rules.json <description>.json will be created which will have the ouput of the applied rules. As mentioned above action and date field with months is still wip.
+
 ```
